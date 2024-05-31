@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-primary {
+            background-color: #007bff;
+        }
+
+        .button-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .button-secondary {
+            background-color: #6c757d;
+        }
+
+        .button-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        .button-success {
+            background-color: #28a745;
+        }
+
+        .button-success:hover {
+            background-color: #218838;
+        }
+
+        .button-danger {
+            background-color: #dc3545;
+        }
+
+        .button-danger:hover {
+            background-color: #c82333;
+        }
+
+        .button-warning {
+            background-color: #ffc107;
+        }
+
+        .button-warning:hover {
+            background-color: #e0a800;
+        }
+
+        .button-info {
+            background-color: #17a2b8;
+        }
+
+        .button-info:hover {
+            background-color: #138496;
+        }
+
+        .button-light {
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        .button-light:hover {
+            background-color: #e2e6ea;
+        }
+
+        .button-dark {
+            background-color: #343a40;
+        }
+
+        .button-dark:hover {
+            background-color: #23272b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button button-primary">Primary</button>
+        <button class="button button-secondary">Secondary</button>
+        <button class="button button-success">Success</button>
+        <button class="button button-danger">Danger</button>
+        <button class="button button-warning">Warning</button>
+        <button class="button button-info">Info</button>
+        <button class="button button-light">Light</button>
+        <button class="button button-dark">Dark</button>
+    </div>
+</body>
+</html>
